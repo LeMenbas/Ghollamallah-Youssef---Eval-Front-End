@@ -1,0 +1,223 @@
+/* STYLE GENERAL */
+
+.color-orange {
+    color: orange;
+}
+
+
+
+.font {
+    font-size: 1.6rem;
+}
+
+.text-barrer {
+    text-decoration-line: line-through;
+}
+
+/* je crée des classes parent et enfant pour pouvoir placer les éléments dans les articles */
+
+.parent {
+    position: relative;
+}
+
+.solde {
+    padding: 5px 10px;
+    color: orange;
+    background-color: #222;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    position: absolute;
+    top: 15px;
+    right: -20px;
+}
+
+.enfant2 {
+    position: absolute;
+    bottom: 25px;
+    left: 90px;
+}
+
+.child {
+    position: absolute;
+    top: -50px;
+    background-color: #f0f0f0;
+    color: #222;
+    display: flex;
+    width: 550px;
+    font-size: 1rem;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* ....fin...... */
+
+img{
+    width: 100%;
+}
+
+/* RESET DU STYLE DU NAVIGATEUR */
+* {
+padding: 0;
+margin: 0;
+list-style: none;
+box-sizing: border-box;
+
+}
+/* ....................... */
+
+/* HEADER */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    min-height: 65px;
+}
+
+#header  {
+    display: flex;
+    justify-content: space-between;
+    width: 1320px;
+    flex-wrap: wrap;
+    align-items: center;  /* j'ai utilisé align-items pour centré le texte p au centre du header*/
+}
+
+/* NAVBAR */
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.navBar {
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.navBar .navLinks {
+    display: flex;
+}
+
+.navLink > a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+/* CONTENU CENTRAL / MAIN */
+main {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+}
+
+
+#main {
+    width: 1320px;
+    display: flex;
+    justify-content: center;
+   padding-bottom: 30px;
+    background-color: whitesmoke;
+    flex-wrap: wrap;
+    margin: 15px 10px 0 10px;
+}
+
+.headerPage {
+   flex: 1 1 1320px;
+}
+
+/* ARTICLE */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    padding: 20px 0;
+}
+
+article {
+    max-width: 450px;
+    flex: 1 1 450px;
+    margin: 20px;
+}
+.prix {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button  {
+    padding: 10px 25px;
+    color: white;
+    background-color: #000;
+}
+
+.space {
+    padding-right: 25px;
+}
+
+
+/* FOOTER */
+
+footer {
+    padding-top: 45px;
+    display: flex;
+     justify-content: center;
+    flex-wrap: wrap;
+    background-color: #222;
+    color: white;
+}
+
+#footer {
+    width: 1320px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid grey;
+}
+
+footer img {
+    width: 50px;
+
+}
+
+footer article {
+    width: 250px;
+    flex: 1 1 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   padding: 20px 45px;
+}
+
+#bas {
+    width: 1320px;
+    display: flex;
+    justify-content: center;
+}
+
+#reseaux {
+    display:inline-block;
+
+}
+
+#reseaux img {
+    height: 40px;
+    width:auto;
+    margin: 10px;
+    padding-left: 50px;
+}
+
+#copyright {
+    width: 1320px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+
